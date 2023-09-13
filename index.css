@@ -280,3 +280,23 @@ i[class*="van-type-"] {
   text-decoration: underline;
   color: #161616;
 }
+
+.hosted--van--container > .hosted--van--list {
+  display: flex;
+  background-color: white;
+  margin: 1.5em;
+  padding: 1em;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hosted--van--list > img {
+  width: 65px;
+  height: 65px;
+}
+
+.main--container {
+  background-color: #fff7ed;
+}
